@@ -1,0 +1,33 @@
+.insertTodo {
+  display: flex;
+  border-bottom: 2px solid #cccccc;
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    flex: 1;
+    height: 2rem;
+    &:focus {
+      border: none;
+    }
+  }
+  button {
+    font-size: 1rem;
+    cursor: pointer;
+    background: none;
+    border: 2px solid #0a1d37;
+    outline: none;
+    border-radius: 8px;
+    color: #0a1d37;
+    height: 1.5rem;
+    align-self: center;
+    margin: 0 10px;
+    transition: 0.2s background ease-in;
+    &:hover {
+      background: #0a1d37;
+      color: #fdf7ef;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.TodoListItem {
+  display: flex;
+  align-items: center;
+  justify-content: self;
+  height: 2.5rem;
+  padding: 0 0.5rem;
+  .checkbox {
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+    font-size: 1.25rem;
+  }
+  .content {
+    flex: 1;
+    margin-left: 0.5rem;
+  }
+  .remove {
+    cursor: pointer;
+    font-size: 1.25rem;
+  }
+
+  & + & {
+    border-top: 1px solid #dddddd;
+  }
+}

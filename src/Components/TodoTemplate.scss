@@ -1,0 +1,20 @@
+.TodoTemplate {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  .title {
+    background: #0a1d37;
+    color: #fdf7ef;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+    overflow: hidden;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .content {
+    background: #fdf7ef;
+  }
+}
